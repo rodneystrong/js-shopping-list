@@ -8024,3 +8024,8 @@ button.close {
     display: none !important;
   }
 }
+/* line 4, ../sass/style.scss */
+.center-block {
+  float: none;
+  /*necessary to center the element*/
+}

@@ -1,3 +1,6 @@
 @import 'bootstrap';
 //@import 'bootstrap-responsive';
 
+.center-block {
+	float: none; /*necessary to center the element*/
+}
