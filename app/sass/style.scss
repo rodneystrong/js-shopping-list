@@ -1,6 +1,18 @@
 @import 'bootstrap';
 //@import 'bootstrap-responsive';
 
+
+
+header {
+	background-color: #f5f5f5;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+
 .center-block {
 	float: none; /*necessary to center the element*/
+}
+
+#the-input {
+	margin-bottom: 20px;
 }

@@ -8024,8 +8024,20 @@ button.close {
     display: none !important;
   }
 }
-/* line 4, ../sass/style.scss */
+/* line 6, ../sass/style.scss */
+header {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+/* line 12, ../sass/style.scss */
 .center-block {
   float: none;
   /*necessary to center the element*/
+}
+
+/* line 16, ../sass/style.scss */
+#the-input {
+  margin-bottom: 20px;
 }
