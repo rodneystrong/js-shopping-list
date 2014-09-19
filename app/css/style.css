@@ -8043,11 +8043,16 @@ header {
 }
 
 /* line 18, ../sass/style.scss */
+.checkbox {
+  padding: 5px 0;
+}
+
+/* line 22, ../sass/style.scss */
 #the-input {
   margin-bottom: 20px;
 }
 
-/* line 22, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .container {
   max-width: 960px;
 }
