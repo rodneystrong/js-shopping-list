@@ -8025,34 +8025,39 @@ button.close {
   }
 }
 /* line 6, ../sass/style.scss */
+.strikethrough {
+  text-decoration: line-through;
+}
+
+/* line 10, ../sass/style.scss */
 .m-bot {
   margin-bottom: 20px;
 }
 
-/* line 10, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
 header {
   background-color: #f5f5f5;
   padding: 20px 0;
   margin-bottom: 20px;
 }
 
-/* line 16, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 .center-block {
   float: none;
   /*necessary to center the element*/
 }
 
-/* line 20, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 .checkbox {
   padding: 5px 0;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 #the-input {
   margin-bottom: 20px;
 }
 
-/* line 28, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .container {
   max-width: 960px;
 }
