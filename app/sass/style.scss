@@ -3,10 +3,7 @@
 //@import "font-awesome-compass";
 //@import 'font-awesome';
 
-.strikethrough {
-	text-decoration: line-through;
-}
-
+/*layout */
 .m-bot {
 	margin-bottom: 20px;
 }
@@ -21,6 +18,12 @@ header {
 	float: none; /*necessary to center the element*/
 }
 
+.item-width {
+	max-width: 570px;
+}
+
+/*functionality styling */
+
 .checkbox {
 	padding: 5px 0;
 }
@@ -31,4 +34,12 @@ header {
 
 .container {
 	max-width: 960px;
+}
+
+.close-button {
+	float: right;
+}
+
+.strikethrough {
+	text-decoration: line-through;
 }

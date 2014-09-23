@@ -8024,40 +8024,52 @@ button.close {
     display: none !important;
   }
 }
-/* line 6, ../sass/style.scss */
-.strikethrough {
-  text-decoration: line-through;
-}
-
-/* line 10, ../sass/style.scss */
+/*layout */
+/* line 7, ../sass/style.scss */
 .m-bot {
   margin-bottom: 20px;
 }
 
-/* line 14, ../sass/style.scss */
+/* line 11, ../sass/style.scss */
 header {
   background-color: #f5f5f5;
   padding: 20px 0;
   margin-bottom: 20px;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 .center-block {
   float: none;
   /*necessary to center the element*/
 }
 
-/* line 24, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
+.item-width {
+  max-width: 570px;
+}
+
+/*functionality styling */
+/* line 27, ../sass/style.scss */
 .checkbox {
   padding: 5px 0;
 }
 
-/* line 28, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 #the-input {
   margin-bottom: 20px;
 }
 
-/* line 32, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .container {
   max-width: 960px;
+}
+
+/* line 39, ../sass/style.scss */
+.close-button {
+  float: right;
+}
+
+/* line 43, ../sass/style.scss */
+.strikethrough {
+  text-decoration: line-through;
 }
