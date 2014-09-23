@@ -18,5 +18,4 @@ $(document).ready(function() {
 		var userInput = $('#the-input').val();
 		alert(userInput);
 	}
-	displayValue();
 });
