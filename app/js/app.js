@@ -16,7 +16,7 @@ $(document).ready(function() {
 	/*grabs the user input and sets it to a var*/
 	function displayValue() {
 		var userInput = $('#the-input').val();
+
 		alert(userInput);
 	}
-	displayValue();
 });
