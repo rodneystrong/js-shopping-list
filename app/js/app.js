@@ -6,9 +6,15 @@ $(document).ready(function() {
 	function enterKey() {
 		$('#the-input').on('keydown', function(e){
 			if(e.which==13){
-				alert("yo");
+				displayValue();
 			}
 		});
 	}
 	enterKey();
+
+	function displayValue() {
+		var userInput = $('#the-input').val();
+		alert(userInput);
+	}
+	displayValue();
 });
