@@ -19,6 +19,13 @@ $(document).ready(function() {
 		var userInput = $('#the-input').val();
 		/*unit test
 		alert(userInput);*/
-		$('#list-items').append('<div class="checkbox m-bot"><label class="item-width">userInput);
+		$('#list-items').append(
+			'<div class="checkbox m-bot">'+
+			'<label class="item-width">'+
+			'<input type="checkbox" value="">'+
+			userInput+
+			'</label>'+
+			closeButton+
+			'</div>');
 	}
 });
