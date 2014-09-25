@@ -17,15 +17,18 @@ $(document).ready(function() {
 	/*grabs the user input and sets it to a var*/
 	function displayValue() {
 		var userInput = $('#the-input').val();
+		var theOutput = '<div class="checkbox m-bot">'+
+						'<label class="item-width">'+
+						'<input type="checkbox" value="">'+
+						userInput+
+						'</label>'+
+						closeButton+
+						'</div>';
 		/*unit test
 		alert(userInput);*/
-		$('#list-items').append(
-			'<div class="checkbox m-bot">'+
-			'<label class="item-width">'+
-			'<input type="checkbox" value="">'+
-			userInput+
-			'</label>'+
-			closeButton+
-			'</div>');
+		//puts theOutput to the top of the list with 'prepend' as opposed to 'append' which puts it at the bottom
+		$('#list-items').prepend(theOutput);
+		//setting the input field to be empty again
+		$('#the-input').val('');
 	}
 });
