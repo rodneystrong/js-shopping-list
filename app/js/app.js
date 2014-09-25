@@ -2,6 +2,7 @@ $(document).ready(function() {
 	/*global vars */
 	//unit test
 	//alert('yo');
+	var closeButton = '<span class="close-button"><i class="fa fa-close"></i></span>'; 
 
 	/*allowing the enter key to trigger submit*/
 	function enterKey() {
@@ -16,6 +17,8 @@ $(document).ready(function() {
 	/*grabs the user input and sets it to a var*/
 	function displayValue() {
 		var userInput = $('#the-input').val();
-		alert(userInput);
+		/*unit test
+		alert(userInput);*/
+		$('#list-items').append('<div class="checkbox m-bot"><label class="item-width">userInput);
 	}
 });
