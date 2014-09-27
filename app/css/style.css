@@ -8081,15 +8081,16 @@ footer .container p {
 /* line 52, ../sass/style.scss */
 .close-button {
   float: right;
+  cursor: pointer;
 }
 
-/* line 56, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .strikethrough {
   text-decoration: line-through;
 }
 
 /*misc items */
-/* line 61, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 a {
   color: #000099;
   /*dark blue*/

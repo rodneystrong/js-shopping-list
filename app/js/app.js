@@ -31,9 +31,11 @@ $(document).ready(function() {
 		//setting the input field to be empty again
 		$('#the-input').val('');
 	}
+
 	//the delete button function
 	/*grab the element for deleting*/
 	$('.close-button').on('click', function() {
-		$('.checkbox').closest().remove();
+		alert('yes');
+		//$('.checkbox').closest().remove();
 	})
 });
