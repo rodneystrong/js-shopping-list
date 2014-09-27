@@ -35,10 +35,15 @@ $(document).ready(function() {
 
 	//the delete button function
 	/*grab the element for deleting*/
-	$('.close-button').on('click', function() {
-		/*unit test
-		alert('yes');*/
-		//$('.checkbox').closest().remove();
-		$('this').closest('.checkbox').fadeOut(300);
-	})
+	// $('.close-button').on('click', function() {
+	// 	/*unit test
+	// 	alert('yes');*/
+	// 	//$('.checkbox').closest().remove();
+	// 	$('this').closest('.checkbox').fadeOut(300);
+	// })
+	
 });
+
+$(document).on('click', '.close-button', function() {
+	alert('yes');
+})
