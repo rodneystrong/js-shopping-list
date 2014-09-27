@@ -32,4 +32,8 @@ $(document).ready(function() {
 		$('#the-input').val('');
 	}
 	//the delete button function
+	/*grab the element for deleting*/
+	$('.close-button').on('click', function() {
+		$('.checkbox').closest().remove();
+	})
 });
