@@ -19,11 +19,11 @@ $(document).ready(function() {
 		var userInput = $('#the-input').val();
 
 		var theOutput = '<div class="checkbox m-bot">'+
+						closeButton+
 						'<label class="item-width">'+
 						'<input type="checkbox" value="">'+
 						userInput+
-						'</label>'+
-						closeButton+
+						'</label>'
 						'</div>';
 		/*unit test
 		alert(userInput);*/
@@ -45,5 +45,9 @@ $(document).ready(function() {
 });
 
 $(document).on('click', '.close-button', function() {
-	alert('yes');
-})
+	//alert('yes');
+	var trying = $(this);
+	console.log(trying);
+	//alert($('this').closest('#list-items'));
+	$(this).closest('.checkbox').fadeOut(200);
+});
