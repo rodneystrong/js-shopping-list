@@ -32,5 +32,13 @@ $(document).ready(function() {
 		//setting the input field to be empty again
 		$('#the-input').val('');
 	}
+
 	//the delete button function
+	/*grab the element for deleting*/
+	$('.close-button').on('click', function() {
+		/*unit test
+		alert('yes');*/
+		//$('.checkbox').closest().remove();
+		$('this').closest('.checkbox').fadeOut(300);
+	})
 });
