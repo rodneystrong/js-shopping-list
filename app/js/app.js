@@ -35,7 +35,9 @@ $(document).ready(function() {
 	//the delete button function
 	/*grab the element for deleting*/
 	$('.close-button').on('click', function() {
-		alert('yes');
+		/*unit test
+		alert('yes');*/
 		//$('.checkbox').closest().remove();
+		$('this').closest('.checkbox').fadeOut(300);
 	})
 });
