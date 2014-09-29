@@ -8024,13 +8024,24 @@ button.close {
     display: none !important;
   }
 }
-/*layout */
+/*variables*/
 /* line 7, ../sass/style.scss */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 11, ../sass/style.scss */
+.blue {
+  color: #20aae5;
+}
+
+/*layout */
+/* line 16, ../sass/style.scss */
 .m-bot {
   margin-bottom: 20px;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 header {
   background-color: #20aae5;
   /*blue */
@@ -8040,57 +8051,57 @@ header {
   margin-bottom: 20px;
 }
 
-/* line 19, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 .center-block {
   float: none;
   /*necessary to center the element*/
 }
 
-/* line 23, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 .item-width {
   max-width: 570px;
 }
 
-/* line 27, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 footer {
   background-color: #20aae5;
   color: #fff;
   height: 60px;
 }
-/* line 32, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 footer .container p {
   margin: 15px 0;
 }
 
 /*functionality styling */
-/* line 40, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .checkbox {
   padding: 5px 0;
 }
 
-/* line 44, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 #the-input {
   margin-bottom: 20px;
 }
 
-/* line 48, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .container {
   max-width: 960px;
 }
 
-/* line 52, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .close-button {
   float: right;
   cursor: pointer;
 }
 
-/* line 57, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .strikethrough {
   text-decoration: line-through;
 }
 
 /*misc items */
-/* line 62, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 a {
   color: #000099;
   /*dark blue*/

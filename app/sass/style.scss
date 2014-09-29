@@ -3,6 +3,15 @@
 //@import "font-awesome-compass";
 //@import 'font-awesome';
 
+/*variables*/
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.blue {
+	color: #20aae5;
+}
+
 /*layout */
 .m-bot {
 	margin-bottom: 20px;
@@ -14,6 +23,15 @@ header {
 	color: #fff;
 	padding: 20px 0;
 	margin-bottom: 20px;
+	h1 {
+
+	}
+	i {
+		
+	}
+	p {
+
+	}
 }
 
 .center-block {
