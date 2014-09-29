@@ -49,10 +49,19 @@ $(document).on('click', '.close-button', function() {
 	var trying = $(this);
 	console.log(trying);
 	//alert($('this').closest('#list-items'));
-	$(this).closest('.checkbox').fadeOut(200);
+	$(this).closest('.checkbox').fadeOut(250);
 });
 
 //Is it better to put the delete function inside the original document.ready function?
 
 //the strikethrough function
+$(document).on('click', 'input', function() {
+	//alert('clicked');
+	//the strikethrough has to be toggled on and off, so use an if statement
+	if(!$(this).closest('.item-width').hasClass('strikethrough')) {
+		$(this).closest('.item-width').addClass('strikethrough');
+	} else {
+		$(this).closest('.item-width').removeClass('strikethrough');
+	}
+});
 //add class .strikethrough 
