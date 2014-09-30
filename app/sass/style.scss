@@ -18,7 +18,13 @@ body {
 }
 
 header {
-	background-color: #20aae5; /*blue */
+	background: //top transparent blue
+				linear-gradient(
+				      rgba(32, 170, 229, 0.90), 
+				      rgba(32, 170, 229, 0.70)
+				 ),
+				//bg pattern
+				url(../img/escheresque_ste.png);
 	border-bottom: 0.25em solid #1894ca;
 	color: #fff;
 	padding: 20px 0;
