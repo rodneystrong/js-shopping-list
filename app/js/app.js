@@ -28,7 +28,7 @@ $(document).ready(function() {
 		/*unit test
 		alert(userInput);*/
 		//puts theOutput to the top of the list with 'prepend' as opposed to 'append' which puts it at the bottom
-		$('#list-items').prepend(theOutput).slideDown();
+		$('#list-items').prepend(theOutput).fadeIn(200);
 		//setting the input field to be empty again
 		$('#the-input').val('');
 	}
