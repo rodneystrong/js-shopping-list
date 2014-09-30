@@ -42,10 +42,15 @@ header {
 	max-width: 570px;
 }
 
+/* Set the fixed height of the footer here */
+#push {
+  height: auto;
+}
+
 footer {
 	background-color: #20aae5;
 	color: #fff;
-	height: 60px;
+	height: auto;
 	.container {
 		p {
 			margin: 15px 0;
@@ -79,4 +84,8 @@ footer {
 /*misc items */
 a {
 	color: #000099; /*dark blue*/
+}
+
+label {
+	font-size: 1.1em;
 }

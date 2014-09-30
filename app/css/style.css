@@ -8062,47 +8062,58 @@ header {
   max-width: 570px;
 }
 
-/* line 45, ../sass/style.scss */
+/* Set the fixed height of the footer here */
+/* line 46, ../sass/style.scss */
+#push {
+  height: auto;
+}
+
+/* line 50, ../sass/style.scss */
 footer {
   background-color: #20aae5;
   color: #fff;
-  height: 60px;
+  height: auto;
 }
-/* line 50, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 footer .container p {
   margin: 15px 0;
 }
 
 /*functionality styling */
-/* line 58, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .checkbox {
   padding: 5px 0;
 }
 
-/* line 62, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 #the-input {
   margin-bottom: 20px;
 }
 
-/* line 66, ../sass/style.scss */
+/* line 71, ../sass/style.scss */
 .container {
   max-width: 960px;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .close-button {
   float: right;
   cursor: pointer;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 .strikethrough {
   text-decoration: line-through;
 }
 
 /*misc items */
-/* line 80, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 a {
   color: #000099;
   /*dark blue*/
+}
+
+/* line 89, ../sass/style.scss */
+label {
+  font-size: 1.1em;
 }
